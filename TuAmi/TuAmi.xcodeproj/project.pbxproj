@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F50AF6B1C2344A1005C7F1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F50AF6A1C2344A1005C7F1A /* AppDelegate.swift */; };
+		5F50AF6D1C2344A1005C7F1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F50AF6C1C2344A1005C7F1A /* ViewController.swift */; };
+		5F50AF701C2344A1005C7F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF6E1C2344A1005C7F1A /* Main.storyboard */; };
+		5F50AF721C2344A1005C7F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF711C2344A1005C7F1A /* Assets.xcassets */; };
+		5F50AF751C2344A1005C7F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF731C2344A1005C7F1A /* LaunchScreen.storyboard */; };
+		5F50AF7F1C234DDD005C7F1A /* regalo-de-graduacion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF7E1C234DDD005C7F1A /* regalo-de-graduacion.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F50AF671C2344A1005C7F1A /* TuAmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuAmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F50AF6A1C2344A1005C7F1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F50AF6C1C2344A1005C7F1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F50AF6F1C2344A1005C7F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F50AF711C2344A1005C7F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F50AF741C2344A1005C7F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F50AF761C2344A1005C7F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F50AF7E1C234DDD005C7F1A /* regalo-de-graduacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "regalo-de-graduacion.png"; path = "../../../../Desktop/regalo-de-graduacion.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F50AF641C2344A1005C7F1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F50AF5E1C2344A1005C7F1A = {
+			isa = PBXGroup;
+			children = (
+				5F50AF691C2344A1005C7F1A /* TuAmi */,
+				5F50AF681C2344A1005C7F1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F50AF681C2344A1005C7F1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F50AF671C2344A1005C7F1A /* TuAmi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F50AF691C2344A1005C7F1A /* TuAmi */ = {
+			isa = PBXGroup;
+			children = (
+				5F50AF6A1C2344A1005C7F1A /* AppDelegate.swift */,
+				5F50AF6C1C2344A1005C7F1A /* ViewController.swift */,
+				5F50AF6E1C2344A1005C7F1A /* Main.storyboard */,
+				5F50AF711C2344A1005C7F1A /* Assets.xcassets */,
+				5F50AF731C2344A1005C7F1A /* LaunchScreen.storyboard */,
+				5F50AF761C2344A1005C7F1A /* Info.plist */,
+				5F50AF7E1C234DDD005C7F1A /* regalo-de-graduacion.png */,
+			);
+			path = TuAmi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F50AF661C2344A1005C7F1A /* TuAmi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F50AF791C2344A1005C7F1A /* Build configuration list for PBXNativeTarget "TuAmi" */;
+			buildPhases = (
+				5F50AF631C2344A1005C7F1A /* Sources */,
+				5F50AF641C2344A1005C7F1A /* Frameworks */,
+				5F50AF651C2344A1005C7F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuAmi;
+			productName = TuAmi;
+			productReference = 5F50AF671C2344A1005C7F1A /* TuAmi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F50AF5F1C2344A1005C7F1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Egibide04;
+				TargetAttributes = {
+					5F50AF661C2344A1005C7F1A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 5F50AF621C2344A1005C7F1A /* Build configuration list for PBXProject "TuAmi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F50AF5E1C2344A1005C7F1A;
+			productRefGroup = 5F50AF681C2344A1005C7F1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F50AF661C2344A1005C7F1A /* TuAmi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F50AF651C2344A1005C7F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F50AF751C2344A1005C7F1A /* LaunchScreen.storyboard in Resources */,
+				5F50AF7F1C234DDD005C7F1A /* regalo-de-graduacion.png in Resources */,
+				5F50AF721C2344A1005C7F1A /* Assets.xcassets in Resources */,
+				5F50AF701C2344A1005C7F1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F50AF631C2344A1005C7F1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F50AF6D1C2344A1005C7F1A /* ViewController.swift in Sources */,
+				5F50AF6B1C2344A1005C7F1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F50AF6E1C2344A1005C7F1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F50AF6F1C2344A1005C7F1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F50AF731C2344A1005C7F1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F50AF741C2344A1005C7F1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F50AF771C2344A1005C7F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F50AF781C2344A1005C7F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F50AF7A1C2344A1005C7F1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TuAmi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.TuAmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F50AF7B1C2344A1005C7F1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TuAmi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.TuAmi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F50AF621C2344A1005C7F1A /* Build configuration list for PBXProject "TuAmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F50AF771C2344A1005C7F1A /* Debug */,
+				5F50AF781C2344A1005C7F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F50AF791C2344A1005C7F1A /* Build configuration list for PBXNativeTarget "TuAmi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F50AF7A1C2344A1005C7F1A /* Debug */,
+				5F50AF7B1C2344A1005C7F1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F50AF5F1C2344A1005C7F1A /* Project object */;
+}
