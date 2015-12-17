@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Weh-cf-1VZ">
-                                <rect key="frame" x="98" y="107" width="405" height="386"/>
+                                <rect key="frame" x="20" y="107" width="560" height="386"/>
                                 <animations/>
                                 <state key="normal" backgroundImage="regalo-de-graduacion.png"/>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
@@ -33,10 +33,10 @@
                         <animations/>
                         <color key="backgroundColor" red="0.78771978490000005" green="0.9415205002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5x2-7i-6C9"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="107" id="DaU-cT-wJg"/>
                             <constraint firstItem="Weh-cf-1VZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="87" id="sFf-RL-ayH"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Weh-cf-1VZ" secondAttribute="trailing" constant="77" id="tjF-KN-RU3"/>
-                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="78" id="yVZ-Gp-g6L"/>
+                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wNS-1O-GZz"/>
                         </constraints>
                     </view>
                 </viewController>
