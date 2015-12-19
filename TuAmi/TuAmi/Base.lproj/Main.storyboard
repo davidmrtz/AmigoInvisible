@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,24 +19,58 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Weh-cf-1VZ">
-                                <rect key="frame" x="20" y="107" width="560" height="386"/>
-                                <animations/>
-                                <state key="normal" backgroundImage="regalo-de-graduacion.png"/>
+                                <rect key="frame" x="95" y="252" width="410" height="195"/>
+                                <state key="normal" backgroundImage="imagen-regalo.png"/>
                                 <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="51" y="84" width="298" height="340"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="51" y="235" width="298" height="330"/>
                                 </variation>
+                                <connections>
+                                    <segue destination="DTM-tf-rE0" kind="show" id="iLQ-FV-ZEb"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qcg-hd-rrt">
+                                <rect key="frame" x="20" y="492" width="560" height="64"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="TU AMIGO INVISIBLE ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="37" name="GillSans-Light"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="mck-OJ-EYB">
+                                <rect key="frame" x="20" y="-24" width="560" height="306"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pulsa sobre el regalo para continuar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a77-Zc-Nae">
+                                <rect key="frame" x="103" y="455" width="477" height="21"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="13"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <animations/>
-                        <color key="backgroundColor" red="0.78771978490000005" green="0.9415205002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5x2-7i-6C9"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="107" id="DaU-cT-wJg"/>
-                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="87" id="sFf-RL-ayH"/>
-                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="wNS-1O-GZz"/>
+                            <constraint firstItem="mck-OJ-EYB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8RO-nM-EXt"/>
+                            <constraint firstItem="a77-Zc-Nae" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="8" id="Hzh-Ra-7Bd"/>
+                            <constraint firstItem="a77-Zc-Nae" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="INq-Io-eut"/>
+                            <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="45" id="My0-RC-tPd"/>
+                            <constraint firstItem="a77-Zc-Nae" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Nxm-8x-F0U"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qcg-hd-rrt" secondAttribute="bottom" constant="44" id="PSE-Tq-yp5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Qcg-hd-rrt" secondAttribute="trailing" id="UAa-pK-M2x"/>
+                            <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="mck-OJ-EYB" secondAttribute="bottom" constant="210" id="Uu2-Yd-nw7"/>
+                            <constraint firstItem="mck-OJ-EYB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-24" id="ayt-T0-TkF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Weh-cf-1VZ" secondAttribute="trailing" constant="75" id="cQO-KZ-Eq1"/>
+                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="fby-vw-rxW"/>
+                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232" id="g7M-u0-PfM"/>
+                            <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="a77-Zc-Nae" secondAttribute="bottom" constant="16" id="gfe-Ks-8BU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mck-OJ-EYB" secondAttribute="trailing" id="ma2-4n-ws5"/>
+                            <constraint firstItem="Qcg-hd-rrt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qf0-Ih-cPq"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="153" id="x1w-4Z-dHj"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,8 +78,102 @@
             </objects>
             <point key="canvasLocation" x="414" y="362"/>
         </scene>
+        <!--Tu amigo invisible-->
+        <scene sceneID="SWm-o9-p1e">
+            <objects>
+                <viewController id="YGJ-sD-35P" customClass="MenuViewController" customModule="TuAmi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5ZV-Yj-2hP"/>
+                        <viewControllerLayoutGuide type="bottom" id="KCi-7u-aVK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hj0-OV-ovW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="wbo-PU-8Ys">
+                                <rect key="frame" x="20" y="64" width="560" height="156"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ato-QH-2Xq">
+                                <rect key="frame" x="20" y="421" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="MIS GRUPOS"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmF-Nn-zJY">
+                                <rect key="frame" x="20" y="250" width="560" height="100"/>
+                                <color key="backgroundColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="CREAR GRUPO"/>
+                                <connections>
+                                    <segue destination="pUM-Rr-yJs" kind="show" id="Uq5-BB-BSf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="kmF-Nn-zJY" firstAttribute="trailing" secondItem="hj0-OV-ovW" secondAttribute="trailingMargin" id="66k-xX-FXs"/>
+                            <constraint firstItem="KCi-7u-aVK" firstAttribute="top" secondItem="wbo-PU-8Ys" secondAttribute="bottom" constant="380" id="9UN-HC-k2Z"/>
+                            <constraint firstItem="wbo-PU-8Ys" firstAttribute="trailing" secondItem="hj0-OV-ovW" secondAttribute="trailingMargin" id="A7o-Fc-KQE"/>
+                            <constraint firstItem="kmF-Nn-zJY" firstAttribute="top" secondItem="wbo-PU-8Ys" secondAttribute="bottom" constant="30" id="LJW-cX-qzq"/>
+                            <constraint firstItem="KCi-7u-aVK" firstAttribute="top" secondItem="kmF-Nn-zJY" secondAttribute="bottom" constant="250" id="LMP-l0-wW2"/>
+                            <constraint firstItem="KCi-7u-aVK" firstAttribute="top" secondItem="Ato-QH-2Xq" secondAttribute="bottom" constant="79" id="U2o-gB-yoo"/>
+                            <constraint firstItem="Ato-QH-2Xq" firstAttribute="top" secondItem="kmF-Nn-zJY" secondAttribute="bottom" constant="71" id="bvS-4d-vLp"/>
+                            <constraint firstItem="kmF-Nn-zJY" firstAttribute="leading" secondItem="hj0-OV-ovW" secondAttribute="leadingMargin" id="esn-Jw-KkA"/>
+                            <constraint firstItem="Ato-QH-2Xq" firstAttribute="leading" secondItem="hj0-OV-ovW" secondAttribute="leadingMargin" id="ilx-L8-yLg"/>
+                            <constraint firstItem="Ato-QH-2Xq" firstAttribute="trailing" secondItem="hj0-OV-ovW" secondAttribute="trailingMargin" id="ouX-jg-xcp"/>
+                            <constraint firstItem="wbo-PU-8Ys" firstAttribute="top" secondItem="5ZV-Yj-2hP" secondAttribute="bottom" id="vsp-iT-kYS"/>
+                            <constraint firstItem="wbo-PU-8Ys" firstAttribute="leading" secondItem="hj0-OV-ovW" secondAttribute="leadingMargin" id="yvW-ac-RT7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tu amigo invisible" id="DOj-Hn-vN7">
+                        <barButtonItem key="backBarButtonItem" title="Atrás" id="wZC-YT-3gg"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N91-57-srE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1935" y="362"/>
+        </scene>
+        <!--Crear Grupo View Controller-->
+        <scene sceneID="rbx-LU-ssw">
+            <objects>
+                <viewController id="pUM-Rr-yJs" customClass="CrearGrupoViewController" customModule="TuAmi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N0h-yM-iV9"/>
+                        <viewControllerLayoutGuide type="bottom" id="myJ-H6-vbx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vaa-YT-Pw3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5g6-pR-Prb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2607" y="362"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IBF-T3-rhW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DTM-tf-rE0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lHE-cX-tGF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YGJ-sD-35P" kind="relationship" relationship="rootViewController" id="wOx-FI-hZX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E3z-EB-IS2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123" y="362"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="regalo-de-graduacion.png" width="472" height="535"/>
+        <image name="imagen-regalo.png" width="1895" height="2163"/>
+        <image name="logo.png" width="1250" height="1250"/>
     </resources>
 </document>

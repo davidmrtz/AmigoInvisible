@@ -12,7 +12,11 @@
 		5F50AF701C2344A1005C7F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF6E1C2344A1005C7F1A /* Main.storyboard */; };
 		5F50AF721C2344A1005C7F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF711C2344A1005C7F1A /* Assets.xcassets */; };
 		5F50AF751C2344A1005C7F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF731C2344A1005C7F1A /* LaunchScreen.storyboard */; };
-		5F50AF7F1C234DDD005C7F1A /* regalo-de-graduacion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF7E1C234DDD005C7F1A /* regalo-de-graduacion.png */; };
+		7B4BCFE51C25844900B14D34 /* CrearGrupoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BCFE41C25844900B14D34 /* CrearGrupoViewController.swift */; };
+		7BE69ECC1C245B92006EACDA /* Imágenes in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ECB1C245B92006EACDA /* Imágenes */; };
+		7BE69ECE1C245C34006EACDA /* imagen-regalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ECD1C245C34006EACDA /* imagen-regalo.png */; };
+		7BE69ED21C2460DF006EACDA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ED11C2460DF006EACDA /* logo.png */; };
+		7BE69ED41C2468B9006EACDA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE69ED31C2468B9006EACDA /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +27,11 @@
 		5F50AF711C2344A1005C7F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F50AF741C2344A1005C7F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F50AF761C2344A1005C7F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F50AF7E1C234DDD005C7F1A /* regalo-de-graduacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "regalo-de-graduacion.png"; path = "../../../../Desktop/regalo-de-graduacion.png"; sourceTree = "<group>"; };
+		7B4BCFE41C25844900B14D34 /* CrearGrupoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearGrupoViewController.swift; sourceTree = "<group>"; };
+		7BE69ECB1C245B92006EACDA /* Imágenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Imágenes"; sourceTree = "<group>"; };
+		7BE69ECD1C245C34006EACDA /* imagen-regalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imagen-regalo.png"; path = "Imágenes/imagen-regalo.png"; sourceTree = "<group>"; };
+		7BE69ED11C2460DF006EACDA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Imágenes/logo.png"; sourceTree = "<group>"; };
+		7BE69ED31C2468B9006EACDA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				5F50AF6A1C2344A1005C7F1A /* AppDelegate.swift */,
 				5F50AF6C1C2344A1005C7F1A /* ViewController.swift */,
+				7BE69ED31C2468B9006EACDA /* MenuViewController.swift */,
+				7B4BCFE41C25844900B14D34 /* CrearGrupoViewController.swift */,
 				5F50AF6E1C2344A1005C7F1A /* Main.storyboard */,
+				7BE69ECB1C245B92006EACDA /* Imágenes */,
 				5F50AF711C2344A1005C7F1A /* Assets.xcassets */,
 				5F50AF731C2344A1005C7F1A /* LaunchScreen.storyboard */,
 				5F50AF761C2344A1005C7F1A /* Info.plist */,
-				5F50AF7E1C234DDD005C7F1A /* regalo-de-graduacion.png */,
+				7BE69ED11C2460DF006EACDA /* logo.png */,
+				7BE69ECD1C245C34006EACDA /* imagen-regalo.png */,
 			);
 			path = TuAmi;
 			sourceTree = "<group>";
@@ -99,6 +111,7 @@
 				TargetAttributes = {
 					5F50AF661C2344A1005C7F1A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5643B8TQ3Y;
 					};
 				};
 			};
@@ -126,9 +139,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F50AF751C2344A1005C7F1A /* LaunchScreen.storyboard in Resources */,
-				5F50AF7F1C234DDD005C7F1A /* regalo-de-graduacion.png in Resources */,
+				7BE69ECE1C245C34006EACDA /* imagen-regalo.png in Resources */,
+				7BE69ED21C2460DF006EACDA /* logo.png in Resources */,
 				5F50AF721C2344A1005C7F1A /* Assets.xcassets in Resources */,
 				5F50AF701C2344A1005C7F1A /* Main.storyboard in Resources */,
+				7BE69ECC1C245B92006EACDA /* Imágenes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F50AF6D1C2344A1005C7F1A /* ViewController.swift in Sources */,
+				7BE69ED41C2468B9006EACDA /* MenuViewController.swift in Sources */,
+				7B4BCFE51C25844900B14D34 /* CrearGrupoViewController.swift in Sources */,
 				5F50AF6B1C2344A1005C7F1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +268,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TuAmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.TuAmi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TuAmi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.egibide.TuAmi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -288,6 +311,7 @@
 				5F50AF7B1C2344A1005C7F1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
