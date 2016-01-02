@@ -1,10 +1,4 @@
-//
-//  MenuViewController.swift
-//  TuAmi
-//
-//  Created by David Martínez Albaina on 18/12/15.
-//  Copyright © 2015 Egibide04. All rights reserved.
-//
+
 
 import UIKit
 

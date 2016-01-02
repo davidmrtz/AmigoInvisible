@@ -1,10 +1,4 @@
-//
-//  ViewController.swift
-//  TuAmi
-//
-//  Created by  on 17/12/15.
-//  Copyright © 2015 Egibide04. All rights reserved.
-//
+
 
 import UIKit
 

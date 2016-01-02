@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
+            timestampString = "473382439.286102"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "DetailsViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TuAmi.DetailsViewController.titleTextField.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "TuAmi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
+                  timestampString = "473387489.622566"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TuAmi.DetailsViewController.titleTextField.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "TuAmi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
+                  timestampString = "473387489.622732"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TuAmi.DetailsViewController.init (TuAmi.DetailsViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; TuAmi.DetailsViewController"
+                  moduleName = "TuAmi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
+                  timestampString = "473387489.622899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TuAmi.DetailsViewController.init (TuAmi.DetailsViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;TuAmi.DetailsViewController&gt;"
+                  moduleName = "TuAmi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
+                  timestampString = "473387489.623057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

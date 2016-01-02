@@ -17,6 +17,12 @@
 		7BE69ECE1C245C34006EACDA /* imagen-regalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ECD1C245C34006EACDA /* imagen-regalo.png */; };
 		7BE69ED21C2460DF006EACDA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ED11C2460DF006EACDA /* logo.png */; };
 		7BE69ED41C2468B9006EACDA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE69ED31C2468B9006EACDA /* MenuViewController.swift */; };
+		F618B22A1C3718F300B25A6C /* GrupoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2241C3718F300B25A6C /* GrupoTableViewController.swift */; };
+		F618B22B1C3718F300B25A6C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2251C3718F300B25A6C /* AddViewController.swift */; };
+		F618B22C1C3718F300B25A6C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2261C3718F300B25A6C /* DetailsViewController.swift */; };
+		F618B22D1C3718F300B25A6C /* PersonaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2271C3718F300B25A6C /* PersonaTableViewController.swift */; };
+		F618B22E1C3718F300B25A6C /* AddPerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2281C3718F300B25A6C /* AddPerViewController.swift */; };
+		F618B22F1C3718F300B25A6C /* DetailsPerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2291C3718F300B25A6C /* DetailsPerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		7BE69ECD1C245C34006EACDA /* imagen-regalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imagen-regalo.png"; path = "Imágenes/imagen-regalo.png"; sourceTree = "<group>"; };
 		7BE69ED11C2460DF006EACDA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Imágenes/logo.png"; sourceTree = "<group>"; };
 		7BE69ED31C2468B9006EACDA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		F618B2241C3718F300B25A6C /* GrupoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrupoTableViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/GrupoTableViewController.swift"; sourceTree = "<group>"; };
+		F618B2251C3718F300B25A6C /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/AddViewController.swift"; sourceTree = "<group>"; };
+		F618B2261C3718F300B25A6C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"; sourceTree = "<group>"; };
+		F618B2271C3718F300B25A6C /* PersonaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonaTableViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/PersonaTableViewController.swift"; sourceTree = "<group>"; };
+		F618B2281C3718F300B25A6C /* AddPerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPerViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/AddPerViewController.swift"; sourceTree = "<group>"; };
+		F618B2291C3718F300B25A6C /* DetailsPerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsPerViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/DetailsPerViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,12 @@
 		5F50AF691C2344A1005C7F1A /* TuAmi */ = {
 			isa = PBXGroup;
 			children = (
+				F618B2241C3718F300B25A6C /* GrupoTableViewController.swift */,
+				F618B2251C3718F300B25A6C /* AddViewController.swift */,
+				F618B2261C3718F300B25A6C /* DetailsViewController.swift */,
+				F618B2271C3718F300B25A6C /* PersonaTableViewController.swift */,
+				F618B2281C3718F300B25A6C /* AddPerViewController.swift */,
+				F618B2291C3718F300B25A6C /* DetailsPerViewController.swift */,
 				5F50AF6A1C2344A1005C7F1A /* AppDelegate.swift */,
 				5F50AF6C1C2344A1005C7F1A /* ViewController.swift */,
 				7BE69ED31C2468B9006EACDA /* MenuViewController.swift */,
@@ -154,8 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F618B22E1C3718F300B25A6C /* AddPerViewController.swift in Sources */,
+				F618B22A1C3718F300B25A6C /* GrupoTableViewController.swift in Sources */,
 				5F50AF6D1C2344A1005C7F1A /* ViewController.swift in Sources */,
+				F618B22B1C3718F300B25A6C /* AddViewController.swift in Sources */,
 				7BE69ED41C2468B9006EACDA /* MenuViewController.swift in Sources */,
+				F618B22F1C3718F300B25A6C /* DetailsPerViewController.swift in Sources */,
+				F618B22D1C3718F300B25A6C /* PersonaTableViewController.swift in Sources */,
+				F618B22C1C3718F300B25A6C /* DetailsViewController.swift in Sources */,
 				7B4BCFE51C25844900B14D34 /* CrearGrupoViewController.swift in Sources */,
 				5F50AF6B1C2344A1005C7F1A /* AppDelegate.swift in Sources */,
 			);
