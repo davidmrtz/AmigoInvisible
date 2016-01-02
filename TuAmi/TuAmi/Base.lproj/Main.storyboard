@@ -21,9 +21,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Weh-cf-1VZ">
                                 <rect key="frame" x="95" y="252" width="410" height="195"/>
                                 <state key="normal" backgroundImage="imagen-regalo.png"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="51" y="84" width="298" height="340"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="51" y="235" width="298" height="330"/>
                                 </variation>
@@ -56,21 +53,33 @@
                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="mck-OJ-EYB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="8RO-nM-EXt"/>
-                            <constraint firstItem="a77-Zc-Nae" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="8" id="Hzh-Ra-7Bd"/>
+                            <constraint firstItem="a77-Zc-Nae" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="8" id="Hzh-Ra-7Bd">
+                                <variation key="widthClass=compact" constant="31"/>
+                            </constraint>
                             <constraint firstItem="a77-Zc-Nae" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="INq-Io-eut"/>
-                            <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="45" id="My0-RC-tPd"/>
+                            <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="45" id="My0-RC-tPd">
+                                <variation key="widthClass=compact" constant="68"/>
+                            </constraint>
                             <constraint firstItem="a77-Zc-Nae" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Nxm-8x-F0U"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Qcg-hd-rrt" secondAttribute="bottom" constant="44" id="PSE-Tq-yp5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Qcg-hd-rrt" secondAttribute="trailing" id="UAa-pK-M2x"/>
                             <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="mck-OJ-EYB" secondAttribute="bottom" constant="210" id="Uu2-Yd-nw7"/>
                             <constraint firstItem="mck-OJ-EYB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-24" id="ayt-T0-TkF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Weh-cf-1VZ" secondAttribute="trailing" constant="75" id="cQO-KZ-Eq1"/>
-                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="fby-vw-rxW"/>
-                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232" id="g7M-u0-PfM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Weh-cf-1VZ" secondAttribute="trailing" constant="75" id="cQO-KZ-Eq1">
+                                <variation key="widthClass=compact" constant="31"/>
+                            </constraint>
+                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="fby-vw-rxW">
+                                <variation key="widthClass=compact" constant="31"/>
+                            </constraint>
+                            <constraint firstItem="Weh-cf-1VZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232" id="g7M-u0-PfM">
+                                <variation key="widthClass=compact" constant="64"/>
+                            </constraint>
                             <constraint firstItem="Qcg-hd-rrt" firstAttribute="top" secondItem="a77-Zc-Nae" secondAttribute="bottom" constant="16" id="gfe-Ks-8BU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mck-OJ-EYB" secondAttribute="trailing" id="ma2-4n-ws5"/>
                             <constraint firstItem="Qcg-hd-rrt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qf0-Ih-cPq"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="153" id="x1w-4Z-dHj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Weh-cf-1VZ" secondAttribute="bottom" constant="153" id="x1w-4Z-dHj">
+                                <variation key="widthClass=compact" constant="176"/>
+                            </constraint>
                         </constraints>
                     </view>
                 </viewController>
