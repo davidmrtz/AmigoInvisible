@@ -12,17 +12,17 @@
 		5F50AF701C2344A1005C7F1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF6E1C2344A1005C7F1A /* Main.storyboard */; };
 		5F50AF721C2344A1005C7F1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF711C2344A1005C7F1A /* Assets.xcassets */; };
 		5F50AF751C2344A1005C7F1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F50AF731C2344A1005C7F1A /* LaunchScreen.storyboard */; };
+		5FF2CC9C1C3EF32B000DA3C1 /* AddPerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2CC961C3EF32B000DA3C1 /* AddPerViewController.swift */; };
+		5FF2CC9D1C3EF32B000DA3C1 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2CC971C3EF32B000DA3C1 /* AddViewController.swift */; };
+		5FF2CC9E1C3EF32B000DA3C1 /* DetailsPerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2CC981C3EF32B000DA3C1 /* DetailsPerViewController.swift */; };
+		5FF2CC9F1C3EF32B000DA3C1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2CC991C3EF32B000DA3C1 /* DetailsViewController.swift */; };
+		5FF2CCA01C3EF32B000DA3C1 /* GrupoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2CC9A1C3EF32B000DA3C1 /* GrupoTableViewController.swift */; };
+		5FF2CCA11C3EF32B000DA3C1 /* PersonaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF2CC9B1C3EF32B000DA3C1 /* PersonaTableViewController.swift */; };
 		7B4BCFE51C25844900B14D34 /* CrearGrupoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4BCFE41C25844900B14D34 /* CrearGrupoViewController.swift */; };
 		7BE69ECC1C245B92006EACDA /* Imágenes in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ECB1C245B92006EACDA /* Imágenes */; };
 		7BE69ECE1C245C34006EACDA /* imagen-regalo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ECD1C245C34006EACDA /* imagen-regalo.png */; };
 		7BE69ED21C2460DF006EACDA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE69ED11C2460DF006EACDA /* logo.png */; };
 		7BE69ED41C2468B9006EACDA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE69ED31C2468B9006EACDA /* MenuViewController.swift */; };
-		F618B22A1C3718F300B25A6C /* GrupoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2241C3718F300B25A6C /* GrupoTableViewController.swift */; };
-		F618B22B1C3718F300B25A6C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2251C3718F300B25A6C /* AddViewController.swift */; };
-		F618B22C1C3718F300B25A6C /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2261C3718F300B25A6C /* DetailsViewController.swift */; };
-		F618B22D1C3718F300B25A6C /* PersonaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2271C3718F300B25A6C /* PersonaTableViewController.swift */; };
-		F618B22E1C3718F300B25A6C /* AddPerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2281C3718F300B25A6C /* AddPerViewController.swift */; };
-		F618B22F1C3718F300B25A6C /* DetailsPerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F618B2291C3718F300B25A6C /* DetailsPerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,17 +33,17 @@
 		5F50AF711C2344A1005C7F1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F50AF741C2344A1005C7F1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F50AF761C2344A1005C7F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FF2CC961C3EF32B000DA3C1 /* AddPerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPerViewController.swift; sourceTree = "<group>"; };
+		5FF2CC971C3EF32B000DA3C1 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		5FF2CC981C3EF32B000DA3C1 /* DetailsPerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPerViewController.swift; sourceTree = "<group>"; };
+		5FF2CC991C3EF32B000DA3C1 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5FF2CC9A1C3EF32B000DA3C1 /* GrupoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrupoTableViewController.swift; sourceTree = "<group>"; };
+		5FF2CC9B1C3EF32B000DA3C1 /* PersonaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonaTableViewController.swift; sourceTree = "<group>"; };
 		7B4BCFE41C25844900B14D34 /* CrearGrupoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearGrupoViewController.swift; sourceTree = "<group>"; };
 		7BE69ECB1C245B92006EACDA /* Imágenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Imágenes"; sourceTree = "<group>"; };
 		7BE69ECD1C245C34006EACDA /* imagen-regalo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imagen-regalo.png"; path = "Imágenes/imagen-regalo.png"; sourceTree = "<group>"; };
 		7BE69ED11C2460DF006EACDA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "Imágenes/logo.png"; sourceTree = "<group>"; };
 		7BE69ED31C2468B9006EACDA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		F618B2241C3718F300B25A6C /* GrupoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrupoTableViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/GrupoTableViewController.swift"; sourceTree = "<group>"; };
-		F618B2251C3718F300B25A6C /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/AddViewController.swift"; sourceTree = "<group>"; };
-		F618B2261C3718F300B25A6C /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"; sourceTree = "<group>"; };
-		F618B2271C3718F300B25A6C /* PersonaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonaTableViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/PersonaTableViewController.swift"; sourceTree = "<group>"; };
-		F618B2281C3718F300B25A6C /* AddPerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPerViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/AddPerViewController.swift"; sourceTree = "<group>"; };
-		F618B2291C3718F300B25A6C /* DetailsPerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsPerViewController.swift; path = "../../../iOS-Swift-Sample-ToDo-/ToDoSample/DetailsPerViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +76,12 @@
 		5F50AF691C2344A1005C7F1A /* TuAmi */ = {
 			isa = PBXGroup;
 			children = (
-				F618B2241C3718F300B25A6C /* GrupoTableViewController.swift */,
-				F618B2251C3718F300B25A6C /* AddViewController.swift */,
-				F618B2261C3718F300B25A6C /* DetailsViewController.swift */,
-				F618B2271C3718F300B25A6C /* PersonaTableViewController.swift */,
-				F618B2281C3718F300B25A6C /* AddPerViewController.swift */,
-				F618B2291C3718F300B25A6C /* DetailsPerViewController.swift */,
+				5FF2CC961C3EF32B000DA3C1 /* AddPerViewController.swift */,
+				5FF2CC971C3EF32B000DA3C1 /* AddViewController.swift */,
+				5FF2CC981C3EF32B000DA3C1 /* DetailsPerViewController.swift */,
+				5FF2CC991C3EF32B000DA3C1 /* DetailsViewController.swift */,
+				5FF2CC9A1C3EF32B000DA3C1 /* GrupoTableViewController.swift */,
+				5FF2CC9B1C3EF32B000DA3C1 /* PersonaTableViewController.swift */,
 				5F50AF6A1C2344A1005C7F1A /* AppDelegate.swift */,
 				5F50AF6C1C2344A1005C7F1A /* ViewController.swift */,
 				7BE69ED31C2468B9006EACDA /* MenuViewController.swift */,
@@ -172,14 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F618B22E1C3718F300B25A6C /* AddPerViewController.swift in Sources */,
-				F618B22A1C3718F300B25A6C /* GrupoTableViewController.swift in Sources */,
+				5FF2CC9D1C3EF32B000DA3C1 /* AddViewController.swift in Sources */,
 				5F50AF6D1C2344A1005C7F1A /* ViewController.swift in Sources */,
-				F618B22B1C3718F300B25A6C /* AddViewController.swift in Sources */,
+				5FF2CCA11C3EF32B000DA3C1 /* PersonaTableViewController.swift in Sources */,
+				5FF2CC9C1C3EF32B000DA3C1 /* AddPerViewController.swift in Sources */,
+				5FF2CCA01C3EF32B000DA3C1 /* GrupoTableViewController.swift in Sources */,
+				5FF2CC9E1C3EF32B000DA3C1 /* DetailsPerViewController.swift in Sources */,
 				7BE69ED41C2468B9006EACDA /* MenuViewController.swift in Sources */,
-				F618B22F1C3718F300B25A6C /* DetailsPerViewController.swift in Sources */,
-				F618B22D1C3718F300B25A6C /* PersonaTableViewController.swift in Sources */,
-				F618B22C1C3718F300B25A6C /* DetailsViewController.swift in Sources */,
+				5FF2CC9F1C3EF32B000DA3C1 /* DetailsViewController.swift in Sources */,
 				7B4BCFE51C25844900B14D34 /* CrearGrupoViewController.swift in Sources */,
 				5F50AF6B1C2344A1005C7F1A /* AppDelegate.swift in Sources */,
 			);
