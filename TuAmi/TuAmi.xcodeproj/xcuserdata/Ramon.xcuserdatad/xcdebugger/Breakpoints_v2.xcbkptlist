@@ -26,7 +26,7 @@
                   moduleName = "TuAmi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
-                  timestampString = "473387489.622566"
+                  timestampString = "473886055.070912"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -41,7 +41,7 @@
                   moduleName = "TuAmi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
-                  timestampString = "473387489.622732"
+                  timestampString = "473886055.071078"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,7 +56,7 @@
                   moduleName = "TuAmi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
-                  timestampString = "473387489.622899"
+                  timestampString = "473886055.071232"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "8"
@@ -71,7 +71,7 @@
                   moduleName = "TuAmi"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Ramon/Repositorio/iOS-Swift-Sample-ToDo-/ToDoSample/DetailsViewController.swift"
-                  timestampString = "473387489.623057"
+                  timestampString = "473886055.071381"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "8"
@@ -79,6 +79,54 @@
                   offsetFromSymbolStart = "31">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../iOS-Swift-Sample-ToDo-/ToDoSample/GrupoTableViewController.swift"
+            timestampString = "473465679.489585"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "GrupoTableViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../iOS-Swift-Sample-ToDo-/ToDoSample/GrupoTableViewController.swift"
+            timestampString = "473465681.265122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../iOS-Swift-Sample-ToDo-/ToDoSample/AddViewController.swift"
+            timestampString = "473881222.383107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "saveButtonClick(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
