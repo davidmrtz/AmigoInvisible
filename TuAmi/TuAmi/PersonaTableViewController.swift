@@ -6,11 +6,12 @@ class PersonaTableViewController:
 
     UITableViewController {
     
+    var nombreArray = String()
     var toDoItems:NSMutableArray = NSMutableArray()
    
     override func viewDidAppear(animated: Bool) {
     let userDefaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
-    let toDoItemList:NSMutableArray? = userDefaults.objectForKey("ListaPersonas") as? NSMutableArray
+    let toDoItemList:NSMutableArray? = userDefaults.objectForKey(nombreArray) as? NSMutableArray
     
     if (toDoItemList != nil) {
     toDoItems=toDoItemList!
@@ -21,9 +22,10 @@ class PersonaTableViewController:
     
     override func viewDidLoad() {
     super.viewDidLoad()
-    
-    
+     print(nombreArray)
+   
     }
+    
     
     override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
@@ -53,7 +55,7 @@ class PersonaTableViewController:
     
     let todoItem :NSDictionary = toDoItems.objectAtIndex(indexPath.row) as! NSDictionary
     
-    
+   
     
     cell.textLabel?.text = todoItem.objectForKey("nombre") as? String
     
@@ -103,22 +105,35 @@ class PersonaTableViewController:
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+        
     
+        
+        
     if(segue.identifier == "showDetails"){
     
     let indexPath:NSIndexPath = self.tableView.indexPathForSelectedRow!
     let detailPerViewController:DetailsPerViewController = segue.destinationViewController as! DetailsPerViewController
     
     detailPerViewController.todoData = toDoItems.objectAtIndex(indexPath.row) as! NSDictionary
-    
+        
+        let DestViewControllertres: DetailsPerViewController = segue.destinationViewController as!
+        DetailsPerViewController
+        DestViewControllertres.nombrearray3 = nombreArray
+        
     }
-    
+        
+   
     else{
+
     
+        }
+      
+    if(segue.identifier == "addTasKDetails"){
+    let DestViewControllerdos: AddPerViewController = segue.destinationViewController as!
+    AddPerViewController
+    DestViewControllerdos.nombrearray2 = nombreArray
+        
+        }
     }
-    
-    }
-    
-    
 }
 

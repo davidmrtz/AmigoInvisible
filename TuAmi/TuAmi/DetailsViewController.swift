@@ -3,13 +3,15 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-
+   
     
     @IBOutlet weak var titleTextField: UITextField!
     
     
     @IBOutlet weak var descriptionTextField: UITextView!
     var todoData:NSDictionary = NSDictionary()
+    
+    
     
     
     override func viewDidLoad() {
@@ -22,9 +24,17 @@ class DetailsViewController: UIViewController {
         
         
         descriptionTextField.text=todoData.objectForKey("importemaximo") as? String
+       
         
     }
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+    
+        let DestViewController : PersonaTableViewController = segue.destinationViewController as! PersonaTableViewController
+    DestViewController.nombreArray = titleTextField.text!
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

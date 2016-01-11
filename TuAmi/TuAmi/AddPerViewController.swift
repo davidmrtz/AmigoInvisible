@@ -9,11 +9,12 @@ class AddPerViewController: UIViewController {
     
     @IBOutlet weak var button: UIBarButtonItem!
  
-    
+    var nombrearray2 = String()
 
     override func viewDidLoad() {
         //self.navigationItem.rightBarButtonItem = nil
         super.viewDidLoad()
+        
         if((tastTitle.text) != nil) {
           self.navigationItem.rightBarButtonItem?.accessibilityActivate()
         }
@@ -31,13 +32,13 @@ class AddPerViewController: UIViewController {
         
         let userdefaults:NSUserDefaults = NSUserDefaults.standardUserDefaults();
         
-        var itemList:NSMutableArray? = userdefaults.objectForKey("ListaPersonas") as?NSMutableArray
-        if (tastTitle.text != "" && taskDetails.text != ""){
+        var itemList:NSMutableArray? = userdefaults.objectForKey(nombrearray2) as?NSMutableArray
+        if(tastTitle.text != "" && taskDetails.text != ""){
         let dataSet:NSMutableDictionary = NSMutableDictionary()
         dataSet.setObject(tastTitle.text!, forKey: "nombre")
         dataSet.setObject(taskDetails.text!, forKey: "preferencias")
         
-       
+        
         
         
         if((itemList) != nil){
@@ -48,15 +49,15 @@ class AddPerViewController: UIViewController {
                 newMutableList.addObject(dict as! NSDictionary)
             }
             
-            userdefaults.removeObjectForKey("ListaPersonas")
+            userdefaults.removeObjectForKey(nombrearray2)
             newMutableList.addObject(dataSet)
-            userdefaults.setObject(newMutableList, forKey: "ListaPersonas")
+            userdefaults.setObject(newMutableList, forKey: nombrearray2)
             
         }else{
            
             itemList=NSMutableArray()
             itemList!.addObject(dataSet)
-            userdefaults.setObject(itemList, forKey: "ListaPersonas")
+            userdefaults.setObject(itemList, forKey: nombrearray2)
             
         }
         

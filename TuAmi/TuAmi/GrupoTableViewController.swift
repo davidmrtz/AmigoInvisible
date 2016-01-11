@@ -116,7 +116,7 @@ class GrupoTableViewController: UITableViewController {
             let detailViewController:DetailsViewController = segue.destinationViewController as! DetailsViewController
             
             detailViewController.todoData = toDoItems.objectAtIndex(indexPath.row) as! NSDictionary
-            print(indexPath.row)
+           
         }
         
         else{

@@ -7,7 +7,7 @@ class DetailsPerViewController: UIViewController {
     
     @IBOutlet weak var titleTextField: UITextField!
     
-    
+    var nombrearray3 = String()
     
     @IBOutlet weak var descriptionTextField: UITextView!
     var todoData:NSDictionary = NSDictionary()
@@ -36,7 +36,7 @@ class DetailsPerViewController: UIViewController {
         
         
         let userDefault:NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        let itemListArray:NSMutableArray = userDefault.objectForKey("ListaPersonas") as! NSMutableArray
+        let itemListArray:NSMutableArray = userDefault.objectForKey(nombrearray3) as! NSMutableArray
         
         let mutableItemList: NSMutableArray = NSMutableArray()
         
@@ -45,8 +45,8 @@ class DetailsPerViewController: UIViewController {
         }
         
         mutableItemList.removeObject(todoData)
-        userDefault.removeObjectForKey("ListaPersonas")
-        userDefault.setObject(mutableItemList, forKey: "ListaPersonas")
+        userDefault.removeObjectForKey(nombrearray3)
+        userDefault.setObject(mutableItemList, forKey: nombrearray3)
         userDefault.synchronize()
         
         self.navigationController?.popViewControllerAnimated(true)
