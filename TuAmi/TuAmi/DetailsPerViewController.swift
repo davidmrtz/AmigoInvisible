@@ -8,9 +8,10 @@ class DetailsPerViewController: UIViewController {
     @IBOutlet weak var titleTextField: UITextField!
     
     var nombrearray3 = String()
+    var todoDataP:NSDictionary = NSDictionary()
     
     @IBOutlet weak var descriptionTextField: UITextView!
-    var todoData:NSDictionary = NSDictionary()
+    
     
     
     override func viewDidLoad() {
@@ -19,10 +20,10 @@ class DetailsPerViewController: UIViewController {
         titleTextField.userInteractionEnabled=false
         descriptionTextField.userInteractionEnabled=false
         
-        titleTextField.text=todoData.objectForKey("nombre") as? String
+        titleTextField.text=todoDataP.objectForKey("nombre") as? String
         
         
-        descriptionTextField.text=todoData.objectForKey("preferencias") as? String
+        descriptionTextField.text=todoDataP.objectForKey("preferencias") as? String
         
     }
     
@@ -36,15 +37,9 @@ class DetailsPerViewController: UIViewController {
         
         
         let userDefault:NSUserDefaults = NSUserDefaults.standardUserDefaults()
-        let itemListArray:NSMutableArray = userDefault.objectForKey(nombrearray3) as! NSMutableArray
-        
         let mutableItemList: NSMutableArray = NSMutableArray()
         
-        for dict:AnyObject in itemListArray{
-            mutableItemList.addObject(dict as! NSDictionary)
-        }
-        
-        mutableItemList.removeObject(todoData)
+        mutableItemList.removeObject(todoDataP)
         userDefault.removeObjectForKey(nombrearray3)
         userDefault.setObject(mutableItemList, forKey: nombrearray3)
         userDefault.synchronize()

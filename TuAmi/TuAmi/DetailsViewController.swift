@@ -1,38 +1,62 @@
 
 
 import UIKit
+extension CollectionType {
+    /// Return a copy of `self` with its elements shuffled
+    func shuffle() -> [Generator.Element] {
+        var list = Array(self)
+        list.shuffleInPlace()
+        return list
+    }
+}
 
+extension MutableCollectionType where Index == Int {
+    /// Shuffle the elements of `self` in-place.
+    
+    mutating func shuffleInPlace() {
+        // empty and single-element collections don't shuffle
+        if count < 2 { return }
+        
+        for i in 0..<count - 1 {
+            let j = Int(arc4random_uniform(UInt32(count - i))) + i
+            guard i != j else { continue }
+            swap(&self[i], &self[j])
+        }
+    }
+}
 class DetailsViewController: UIViewController {
-   
+    
+    
+    
+
     
     @IBOutlet weak var titleTextField: UITextField!
-    
     
     @IBOutlet weak var descriptionTextField: UITextView!
     var todoData:NSDictionary = NSDictionary()
     
+    var toDoItems:NSMutableArray = NSMutableArray()
     
-    
-    
+    override func viewDidAppear(animated: Bool) {
+        let userDefaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        let toDoItemList:NSMutableArray? = userDefaults.objectForKey(titleTextField.text!) as? NSMutableArray
+        
+        if (toDoItemList != nil) {
+            toDoItems=toDoItemList!
+            print("lista",toDoItems)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleTextField.userInteractionEnabled=false
+      titleTextField.userInteractionEnabled=false
         descriptionTextField.userInteractionEnabled=false
         
-        titleTextField.text=todoData.objectForKey("nombre") as? String
+      titleTextField.text=todoData.objectForKey("nombre") as? String
         
-        
-        descriptionTextField.text=todoData.objectForKey("importemaximo") as? String
+      descriptionTextField.text=todoData.objectForKey("importemaximo") as? String
        
-        
-    }
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-    
-        let DestViewController : PersonaTableViewController = segue.destinationViewController as! PersonaTableViewController
-    DestViewController.nombreArray = titleTextField.text!
-        
-        
+       
     }
     
     override func didReceiveMemoryWarning() {
@@ -41,8 +65,7 @@ class DetailsViewController: UIViewController {
     }
     
     @IBAction func deleteButtonClicked(sender: AnyObject) {
-    
-    
+        
         
         let userDefault:NSUserDefaults = NSUserDefaults.standardUserDefaults()
         let itemListArray:NSMutableArray = userDefault.objectForKey("ListaGrupos") as! NSMutableArray
@@ -61,14 +84,27 @@ class DetailsViewController: UIViewController {
         self.navigationController?.popViewControllerAnimated(true)
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue!, sender: AnyObject!) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    @IBAction func buttonSorteo(sender: AnyObject) {    
+        print(toDoItems.count)
+        var n = 0
+        var numbers = [0,1,2,3,4,5,6,7]
+        var array = [0,1,2,3,4,5,6,7]
+        
+            repeat{
+                
+                while (n <= array.count - 1){
+                    
+                    if (numbers[n] == array[n]){
+                        numbers.shuffleInPlace()
+                        n = 0
+                    }else{ n = n + 1
+                    }
+                }
+                
+            }while(numbers[n-1] == array[n-1])
+            print(array)
+            print(numbers)
+        }
 
 }

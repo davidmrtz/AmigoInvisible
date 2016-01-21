@@ -27,12 +27,12 @@ class AddViewController: UIViewController {
         
         var itemList:NSMutableArray? = userdefaults.objectForKey("ListaGrupos") as?NSMutableArray
         if (tastTitle.text != "" && taskDetails.text != ""){
+           
         let dataSet:NSMutableDictionary = NSMutableDictionary()
         dataSet.setObject(tastTitle.text!, forKey: "nombre")
         dataSet.setObject(taskDetails.text!, forKey: "importemaximo")
         
-        
-        
+            
         
         if((itemList) != nil){
             

@@ -395,6 +395,10 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="¡¡SORTEAR!!"/>
+                                <connections>
+                                    <action selector="buttonSorteo:" destination="Kuk-O2-kKw" eventType="touchUpInside" id="zeb-uB-udL"/>
+                                    <segue destination="WW5-x1-Crr" kind="show" id="u4J-QQ-5f4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="NOMBRE GRUPO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Div-JZ-sqn">
                                 <rect key="frame" x="49" y="150" width="71" height="21"/>
@@ -521,6 +525,24 @@
             </objects>
             <point key="canvasLocation" x="1935" y="1818"/>
         </scene>
+        <!--Sorteo Grupo View Controller-->
+        <scene sceneID="Rkb-AD-xXw">
+            <objects>
+                <viewController id="WW5-x1-Crr" customClass="SorteoGrupoViewController" customModule="TuAmi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sNT-Rm-nJK"/>
+                        <viewControllerLayoutGuide type="bottom" id="2az-2I-cM6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1vh-pD-VYD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zTe-9Z-fkT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2698.5" y="1818"/>
+        </scene>
         <!--MIS PERSONAS-->
         <scene sceneID="9uh-r1-F5y">
             <objects>
@@ -640,7 +662,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AZ-NA-3hR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2661" y="2523"/>
+            <point key="canvasLocation" x="2698.5" y="2523"/>
         </scene>
         <!--Details Per View Controller-->
         <scene sceneID="zD2-nb-rE7">
@@ -726,6 +748,6 @@
         <image name="logo.png" width="1250" height="1250"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8kp-qV-SFu"/>
+        <segue reference="aTc-ZB-Koi"/>
     </inferredMetricsTieBreakers>
 </document>
