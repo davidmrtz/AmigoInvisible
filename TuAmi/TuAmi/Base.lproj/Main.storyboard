@@ -575,12 +575,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hIR-cA-QvA">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hIR-cA-QvA">
                                 <rect key="frame" x="43" y="134" width="434" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOMBRE DEL PARTICIPANTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArH-Xy-34J">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="NOMBRE DEL PARTICIPANTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArH-Xy-34J">
                                 <rect key="frame" x="43" y="105" width="71" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -592,7 +592,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PREFERENCIAS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ7-aD-8DU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="PREFERENCIAS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ7-aD-8DU">
                                 <rect key="frame" x="43" y="189" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -623,6 +623,9 @@
                                 <exclude reference="pxe-oQ-8Cl"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="BKn-Qd-NUc"/>
+                                <exclude reference="aoy-eJ-sny"/>
+                                <exclude reference="uEr-Qb-hqQ"/>
                                 <exclude reference="KR4-4x-85I"/>
                                 <exclude reference="P27-Jq-5U2"/>
                                 <exclude reference="eXV-Pn-VP3"/>
@@ -633,9 +636,6 @@
                                 <exclude reference="4dM-va-ywd"/>
                                 <exclude reference="OgD-ue-RVd"/>
                                 <exclude reference="jK0-4C-HId"/>
-                                <exclude reference="BKn-Qd-NUc"/>
-                                <exclude reference="aoy-eJ-sny"/>
-                                <exclude reference="uEr-Qb-hqQ"/>
                                 <exclude reference="CAl-Bt-RdF"/>
                             </mask>
                         </variation>
@@ -644,6 +644,9 @@
                                 <include reference="pxe-oQ-8Cl"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="BKn-Qd-NUc"/>
+                                <include reference="aoy-eJ-sny"/>
+                                <include reference="uEr-Qb-hqQ"/>
                                 <include reference="KR4-4x-85I"/>
                                 <include reference="P27-Jq-5U2"/>
                                 <include reference="eXV-Pn-VP3"/>
@@ -654,9 +657,6 @@
                                 <include reference="4dM-va-ywd"/>
                                 <include reference="OgD-ue-RVd"/>
                                 <include reference="jK0-4C-HId"/>
-                                <include reference="BKn-Qd-NUc"/>
-                                <include reference="aoy-eJ-sny"/>
-                                <include reference="uEr-Qb-hqQ"/>
                                 <include reference="CAl-Bt-RdF"/>
                             </mask>
                         </variation>
@@ -692,18 +692,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOMBRE DEL PARTICIPANTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJs-yE-22t">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="NOMBRE DEL PARTICIPANTE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJs-yE-22t">
                                 <rect key="frame" x="49" y="150" width="71" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zu9-1A-d4J">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zu9-1A-d4J">
                                 <rect key="frame" x="49" y="179" width="434" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PREFERENCIAS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77d-6a-NaL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="PREFERENCIAS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77d-6a-NaL">
                                 <rect key="frame" x="49" y="234" width="88" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -739,6 +739,10 @@
                                 <exclude reference="6eZ-BU-WHn"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="2UA-XX-cF9"/>
+                                <exclude reference="Jsp-NU-3xZ"/>
+                                <exclude reference="Sdg-0e-FRV"/>
+                                <exclude reference="nPg-dw-zxE"/>
                                 <exclude reference="ARb-Tq-a6f"/>
                                 <exclude reference="iVK-Tz-KN8"/>
                                 <exclude reference="msM-HS-Gdv"/>
@@ -749,10 +753,6 @@
                                 <exclude reference="BYt-Ju-yQB"/>
                                 <exclude reference="tmH-bD-4tE"/>
                                 <exclude reference="wqh-AT-dAj"/>
-                                <exclude reference="2UA-XX-cF9"/>
-                                <exclude reference="Jsp-NU-3xZ"/>
-                                <exclude reference="Sdg-0e-FRV"/>
-                                <exclude reference="nPg-dw-zxE"/>
                                 <exclude reference="Jax-g6-vvN"/>
                             </mask>
                         </variation>
@@ -761,6 +761,10 @@
                                 <include reference="6eZ-BU-WHn"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="2UA-XX-cF9"/>
+                                <include reference="Jsp-NU-3xZ"/>
+                                <include reference="Sdg-0e-FRV"/>
+                                <include reference="nPg-dw-zxE"/>
                                 <include reference="ARb-Tq-a6f"/>
                                 <include reference="iVK-Tz-KN8"/>
                                 <include reference="msM-HS-Gdv"/>
@@ -771,10 +775,6 @@
                                 <include reference="BYt-Ju-yQB"/>
                                 <include reference="tmH-bD-4tE"/>
                                 <include reference="wqh-AT-dAj"/>
-                                <include reference="2UA-XX-cF9"/>
-                                <include reference="Jsp-NU-3xZ"/>
-                                <include reference="Sdg-0e-FRV"/>
-                                <include reference="nPg-dw-zxE"/>
                                 <include reference="Jax-g6-vvN"/>
                             </mask>
                         </variation>
